@@ -1,0 +1,9 @@
+[project]
+name = "fastapi-workshop"
+version = "1.0.0"
+description = "FastAPI Workshop"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi[standard]",
+]
