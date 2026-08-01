@@ -6,12 +6,28 @@ myenv/
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
 
 # VS Code
 .vscode/
 
-# Environment variables
+# Environment Variables
 .env
 
 # macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Misc
+.idea/
